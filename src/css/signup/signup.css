@@ -1,0 +1,19 @@
+.signup-container {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left {
+    position: absolute;
+    height: 70%;
+    width: 50%;
+    background: #FFFAF3;
+}
+
+#svg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+  }
+
