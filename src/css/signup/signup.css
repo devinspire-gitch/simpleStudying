@@ -32,6 +32,10 @@
     padding: 30px;
 }
 
+.right-container h2 {
+    margin-left: 40px;
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
@@ -43,8 +47,8 @@
     display: inline-block;
     background: white;
     color: #444;
-    border-radius: 10px;
-    border: 1px solid #888;
+    border: 1px solid #D8D8D8;
+    border-radius: 14px;
     white-space: nowrap;
     text-align: center;
     margin-top: 10px;
@@ -109,3 +113,91 @@ h2 {
     margin-right: 10px;
 }
 
+.input-text {
+    font-size: 13px;
+}
+
+.inputbox {
+    border: 1px solid #D8D8D8;
+    border-radius: 14px;
+    padding: 14px 20px;
+    width: 90%;
+}
+
+.password-container {
+    position: relative;
+}
+
+.password {
+    border: 1px solid #D8D8D8;
+    border-radius: 14px;
+    padding: 14px 20px;
+    width: 90%;
+}
+
+.confirm-container {
+    position: relative;
+}
+
+.confirm-password {
+    border: 1px solid #D8D8D8;
+    border-radius: 14px;
+    padding: 14px 20px;
+    width: 90%;
+}
+
+.password-eye {
+    position: absolute;
+    bottom: 15px;
+    right: 15px
+  }
+
+.confirm-eye {
+    position: absolute;
+    bottom: 15px;
+    right: 15px
+  }
+
+.signup-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+    background: #CC6828;
+    border-radius: 14px;
+    border: none;
+    width: 152px;
+    height: 51px;
+    color: white;
+    margin-top: 40px;
+}
+
+.already-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.already-login p {
+    font-size: 12px;
+}
+
+.login {
+    font-size: 14px;
+    font-weight: 700;
+    color: #CC6828;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.support-btn {
+    position: absolute;
+    background: url('../../assets/support.png');
+    width: 60px;
+    height: 60px;
+    border: none;
+    bottom: 150px;
+    right: 0;
+}
