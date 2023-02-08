@@ -11,7 +11,9 @@ const index = () => {
           <Left />
           <Right />
       </div>
-      {/* <Footer /> */}
+      <div className='footer-container'>
+        <Footer />
+      </div>
     </>
   )
 }

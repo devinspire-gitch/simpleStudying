@@ -1,6 +1,7 @@
 .signup-container {
     display: flex;
     flex-direction: row;
+    font-size: 14px;
 }
 .left-container {
     position: absolute;
@@ -16,7 +17,7 @@
     height: auto;
   }
 
-.logo {
+.signup-logo {
     width: 250px;
     height: 57px;
     margin-top: 58px;
@@ -75,7 +76,6 @@ span.buttonText {
     display: inline-block;
     vertical-align: middle;
     padding-left: 5x;
-    font-size: 14px;
     font-weight: 700;
 }
 
@@ -116,10 +116,6 @@ h2 {
     margin-top: 25px;
     margin-left: 10px;
     margin-right: 10px;
-}
-
-.input-text {
-    font-size: 13px;
 }
 
 .inputbox {
@@ -185,12 +181,7 @@ h2 {
     margin-top: 30px;
 }
 
-.already-login p {
-    font-size: 12px;
-}
-
 .login {
-    font-size: 14px;
     font-weight: 700;
     color: #CC6828;
     margin-left: 10px;
@@ -205,4 +196,10 @@ h2 {
     border: none;
     bottom: 150px;
     right: 0;
+}
+
+.footer-container {
+    position: absolute;
+    width: 100%;
+    top: 100%;
 }
