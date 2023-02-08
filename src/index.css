@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "myFont";   /*Can be any text*/
+  src: local("myFont"),
+    url("./font/Montserrat-Regular.ttf") format("truetype");
+}
+
 body {
   margin: 0;
+  font-family: 'myFont';
 }
+
+
