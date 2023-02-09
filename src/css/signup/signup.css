@@ -185,7 +185,7 @@ h2 {
     font-weight: 700;
     color: #CC6828;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 14px;
 }
 
 .support-btn {
@@ -202,4 +202,48 @@ h2 {
     position: absolute;
     width: 100%;
     top: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .signup-logo {
+        width: 175px;
+        height: 40px;
+        margin-left: 24px;
+        margin-top: 40px;
+    }
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    .signup-logo {
+        width: 175px;
+        height: 40px;
+        margin-left: 24px;
+        margin-top: 40px;
+    }
+    
+    .signup_manner {
+        width: 300px;
+        height: 300px;
+        right: 50px;
+        top: 200px
+    }
+
+    .right-container {
+        margin-left: 0px;
+        padding: 10px;
+    }
+
+    .right-container h2 {
+        text-align: center;
+    }
+
+    .signup-btn {
+        width: 100%;
+    }
+
+    .support-btn {
+        bottom: 60px;
+        right: 20px;
+    }
 }
