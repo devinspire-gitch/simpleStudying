@@ -165,3 +165,29 @@
         padding-bottom: 30px;
     }
 }
+
+@media only screen and (max-width: 700px) {
+    .footer {
+        height: fit-content;
+        text-align: center;
+    }
+    .main-footer-elements {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-footer-elements p {
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .subscribe input[type='text'] {
+        margin: 10 auto;
+    }
+    .subscribe button {
+        margin: 10 auto;
+    }
+    .bottom-text {
+        display: flex;
+        flex-direction: column;
+    }
+}
