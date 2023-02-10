@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from '../../components/logo'
 import signupImg from '../../assets/image.png'
 
-const left = () => {
+const Left = () => {
   return (
     <div className='left-container'>
         <div>
@@ -20,4 +20,4 @@ const left = () => {
   )
 }
 
-export default left
+export default Left
